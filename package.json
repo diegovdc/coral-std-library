@@ -1,0 +1,24 @@
+{
+  "name": "coral-std-library",
+  "version": "1.0.0",
+  "description": "Simple helper functions that are used in the Coral Framework, most of them are just composed Ramda functions",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --colors --reporter spec ./**/*spec.js"
+  },
+  "author": "Diego Villaseñor",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-watch": "^4.3.11",
+    "jasmine-node": "^1.14.5",
+    "chai": "^3.5.0",
+    "request": "^2.79.0",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.10"
+  },
+  "dependencies": {
+    "ramda": "^0.23.0"
+  }
+}
