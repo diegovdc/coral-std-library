@@ -2,6 +2,7 @@
   "name": "coral-std-library",
   "version": "1.0.0",
   "description": "Simple helper functions that are used in the Coral Framework, most of them are just composed Ramda functions",
+  "main": "std-library.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --colors --reporter spec ./**/*spec.js"
   },
