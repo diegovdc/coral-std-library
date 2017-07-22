@@ -40,7 +40,19 @@ const zipManyWith = (fn, arr_of_arrs) => {
 // indexedMap :: Mappable a -> Mappable a index
 const indexedMap =  R.addIndex(R.map)
 
+const Task = require('data.task')
+
+//parallelTasks :: (-> r) -> [Task] -> Task Error *
+let parallelTasks = R.curry(
+	(operator_fn, arr_of_tasks) => {
+		let fn 	= 	R.curryN(arr_of_tasks.length, operator_fn),
+			tasks = R.ap([flAp], arr_of_tasks)
+		return composeArr(tasks)(Task.of(fn))
+	}
+)
+
 module.exports = {
+	parallelTasks
 	flAp, 
 	composeArr,
 	initInArray,
