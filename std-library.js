@@ -52,7 +52,7 @@ let parallelTasks = R.curry(
 )
 
 module.exports = {
-	parallelTasks
+	parallelTasks,
 	flAp, 
 	composeArr,
 	initInArray,
