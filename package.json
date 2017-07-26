@@ -10,15 +10,15 @@
   "author": "Diego Villaseñor",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^4.3.1",
-    "gulp-watch": "^4.3.11",
-    "mocha": "^3.2.0",
-    "nyc": "^11.0.3"
+    "chai": "3.5.0",
+    "gulp": "3.9.1",
+    "gulp-mocha": "4.3.1",
+    "gulp-watch": "4.3.11",
+    "mocha": "3.2.0",
+    "nyc": "11.0.3"
   },
   "dependencies": {
-    "data.task": "^3.1.1",
-    "ramda": "^0.23.0"
+    "data.task": "3.1.1",
+    "ramda": "0.23.0"
   }
 }
