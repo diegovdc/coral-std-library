@@ -4,16 +4,18 @@
   "description": "Simple helper functions that are used in the Coral Framework, most of them are just composed Ramda functions",
   "main": "std-library.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --colors --reporter spec ./**/*spec.js"
+    "test": "./node_modules/.bin/mocha --colors --reporter spec ./**/*spec.js",
+    "coverage": "nyc --reporter=html  --reporter=text mocha ./specs/pure-functions.spec.js"
   },
   "author": "Diego Villaseñor",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-mocha": "^4.3.1",
     "gulp-watch": "^4.3.11",
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "nyc": "^11.0.3"
   },
   "dependencies": {
     "data.task": "^3.1.1",

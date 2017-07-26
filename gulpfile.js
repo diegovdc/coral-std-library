@@ -8,14 +8,7 @@ var gutil = require('gulp-util');
 
 gulp.task('default', function() {
 		console.log('Now watching files for test running...');
-		return gulp.watch(['./**/*.js', 
-						'../../Models/**/*.js',
-						'../../Controllers/**/*.js',
-						'../../*tasks.js',
-						'../../std-library.js',
-						'../../routes.js',
-						'../../mongo-attachments.js'
-						], ['mocha']);
+		return gulp.watch(['./**/*.js'], ['mocha']);
 });
 
 gulp.task('mocha', function() {
