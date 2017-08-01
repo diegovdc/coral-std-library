@@ -1,4 +1,3 @@
-const expect = require("chai").expect
 const R = require('ramda')
 
 //flAp :: [a]-> [a -> b] -> [b]
