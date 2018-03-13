@@ -27,7 +27,7 @@ const {
     pathHasString,//no testeada por si sóla pero si en objTextFilter y multiTextFilter2
     stringInPathOfObjArray,//no testeada por si sóla pero si en objArrayTextFilter y multiTextFilter2
     substringInStringArray,//no testeada por si sóla pero si en stringArrayTextFilter y multiTextFilter2
-}  = require('../std-library');
+}  = require('../src/std-library');
 
 describe('Pure function library', () => {
 
