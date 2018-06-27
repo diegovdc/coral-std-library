@@ -1,6 +1,6 @@
 {
   "name": "coral-std-library",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "description": "Simple helper functions that are used in the Coral Framework, most of them are just composed Ramda functions",
   "main": "lib/std-library.js",
   "scripts": {
@@ -13,12 +13,12 @@
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.6.1",
-    "chai": "4.1.2",
+    "chai": "3.5.0",
     "gulp": "4.0.0",
-    "gulp-mocha": "6.0.0",
-    "gulp-watch": "4.3.11",
+    "gulp-mocha": "4.3.1",
+    "gulp-watch": "5.0.0",
     "mocha": "5.2.0",
-    "nyc": "12.0.2"
+    "nyc": "13.0.0 "
   },
   "dependencies": {
     "data.task": "3.1.1",
