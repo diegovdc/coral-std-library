@@ -1,6 +1,6 @@
 {
   "name": "coral-std-library",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Simple helper functions that are used in the Coral Framework, most of them are just composed Ramda functions",
   "main": "lib/std-library.js",
   "scripts": {
